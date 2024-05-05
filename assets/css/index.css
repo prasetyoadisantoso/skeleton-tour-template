@@ -5,6 +5,10 @@
     width: 100px;
 }
 
+#header .company-logo-mobile {
+    width: 300px;
+}
+
 #header #company-brand #brand-logo {
     width: 50%;
 }
@@ -32,7 +36,7 @@
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* Tambahkan gaya CSS untuk layar tablet di sini */
-    
+
 }
 
 /* Desktop */
@@ -51,7 +55,7 @@
     text-align: center;
     padding: 100px 0;
     position: relative;
-    height: 100vh;
+    height: 85vh;
 }
 
 #hero img {
@@ -100,8 +104,30 @@
 }
 
 /* -------------------------------------------------------------------------- */
+/*                             Best Tour Packages                             */
+/* -------------------------------------------------------------------------- */
+#best-tour-package .star-rating {
+    line-height: 32px;
+    font-size: 1.25em;
+}
+
+#best-tour-package .star-rating .bi-star-fill {
+    color: yellow;
+}
+
+/* -------------------------------------------------------------------------- */
 /*                                  Component                                 */
 /* -------------------------------------------------------------------------- */
+
+/* Spacer */
 .spacer {
     height: 100px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Swiper Card                                */
+/* -------------------------------------------------------------------------- */
+#best-tour-package .swiper-pagination {
+    position: relative;
+    padding-top: 50px;
 }

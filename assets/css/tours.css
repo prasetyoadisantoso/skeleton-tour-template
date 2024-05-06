@@ -1,0 +1,154 @@
+/* -------------------------------------------------------------------------- */
+/*                                   Header                                   */
+/* -------------------------------------------------------------------------- */
+header {
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-up {
+    top: -150px;
+}
+
+#header .company-logo {
+    height: 50px;
+}
+
+#header .company-logo-mobile {
+    width: 300px;
+}
+
+#header #company-brand #brand-logo {
+    width: 50%;
+}
+
+/* ------------------------------ Media Queries ----------------------------- */
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    #header #company-brand {
+        width: 70%;
+    }
+
+    #header #company-brand #brand-logo {
+        width: 25%;
+    }
+
+    #header #company-brand #brand-logo img {
+        width: 100%;
+    }
+
+    #header #company-brand #brand-name {
+        width: 50% !important;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Tambahkan gaya CSS untuk layar tablet di sini */
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    /* Tambahkan gaya CSS untuk layar desktop di sini */
+}
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                               Hero Breadcrumb                              */
+/* -------------------------------------------------------------------------- */
+
+#hero-breadcrumb {
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+    height: 50vh;
+}
+
+#hero-breadcrumb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#hero-breadcrumb .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Warna hitam semi-transparan */
+    z-index: 0;
+}
+
+#hero-breadcrumb .hero-breadcrumb-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* ------------------------------ Media Queries ----------------------------- */
+/* Mobile */
+@media only screen and (max-width: 767px) {
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Tambahkan gaya CSS untuk layar tablet di sini */
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    /* Tambahkan gaya CSS untuk layar desktop di sini */
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    /* Tambahkan gaya CSS untuk layar desktop di sini */
+}
+
+/* Desktop */
+@media only screen and (min-width: 1248px) {
+
+    #hero-breadcrumb {
+        height: 70vh;
+    }
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 1440px) {
+    #hero-breadcrumb {
+        height: 40vh;
+    }
+    
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Swiper Card                                */
+/* -------------------------------------------------------------------------- */
+#tours-content .swiper-pagination-related-top-destination {
+    position: relative;
+    padding-top: 25px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  Component                                 */
+/* -------------------------------------------------------------------------- */
+
+/* Spacer */
+.spacer {
+    height: 100px;
+}
+
+

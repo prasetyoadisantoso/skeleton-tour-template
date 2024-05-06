@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Tours - Skeleton Tour Template</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Bootstrao Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Date Range Picker -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+    <!-- Select 2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/select2-bootstrap-5-theme@1.3.0/dist/select2-bootstrap-5-theme.min.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/tours.css">
+
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header id="header" class="bg-white ">
+        <!-- Top Bar -->
+        <div class="container-fluid bg-dark py-2">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Left content: Phone and Work Hours -->
+                <div class="text-white">
+                    <span class="me-3"><i class="bi bi-telephone me-1"></i>Phone: 123-456-7890</span>
+                    <span><i class="bi bi-clock me-1"></i>Work Hours: Mon-Fri, 9:00 AM - 5:00 PM</span>
+                </div>
+
+                <!-- Right content: Social Media Icons -->
+                <div class="text-white">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Bar -->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+
+                <!-- Start Company Brand -->
+                <div class="d-flex align-items-center" id="company-brand">
+
+                    <!-- Company Logo -->
+                    <div class="container px-0 py-0 mx-0" id="brand-logo">
+                        <img src="https://dummyimage.com/100x100/e0e0e0/ffffff" alt="" srcset=""
+                            class="d-lg-block d-none company-logo">
+                        <img src="https://dummyimage.com/300x100/e0e0e0/ffffff" alt="" srcset=""
+                            class="d-block d-lg-none company-logo-mobile">
+                    </div>
+
+                    <!-- Company Name -->
+                    <div class="container d-none d-md-block" id="brand-name">
+                        <a class="navbar-brand text-wrap" href="#">Skeleton Tour Template</a>
+                    </div>
+
+                </div>
+                <!-- End Company Brand -->
+
+                <!-- Start List Menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-search"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tours.html">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><button type="button" class="btn btn-primary btn-lg">Book
+                                    Now</button></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End List Menu -->
+
+            </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+
+    <main>
+
+        <!-- Hero - Breadcrumb -->
+        <section id="hero-breadcrumb">
+            <div class="container-fluid h-100">
+                <div class="row align-items-center h-100">
+                    <div class="px-4 py-5 my-5 text-center">
+                        <div class="overlay">
+                        </div>
+                        <img class="d-block mx-auto mb-4" src="https://dummyimage.com/1920x1080/e0e0e0/ffffff" alt=""
+                            width="72" height="57">
+                        <div class="container hero-breadcrumb-content">
+                            <h1 class="display-5 fw-bold"><br>Our Tours</h1>
+                            <div class="col-lg-6 mx-auto">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <a href="#" class="text-decoration-none text-white">
+                                        <h3>Home&nbsp;/</h3>
+                                    </a>
+                                    <a href="#" class="text-decoration-none text-white">
+                                        <h3>&nbsp;Tours</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero - Breadcrumb -->
+
+        <section id="tours-content">
+
+            <div class="spacer">
+                <!-- Spacer -->
+            </div>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- Tour list column -->
+                    <div class="col-md-8">
+
+                        <!-- Tour Finder Control -->
+                        <div class="container">
+                            <div class="d-flex justify-content-between">
+                                <div class="container">
+                                    <p>Showing 1-5 of 80 results</p>
+                                </div>
+
+                                <div class="container">
+                                    <div class="mb-3">
+                                        <select class="form-select form-select-lg" name="" id="">
+                                            <option selected>- Sort By -</option>
+                                            <option value="">Top Rating</option>
+                                            <option value="">Price Low to High</option>
+                                            <option value="">Price High to Low</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <!-- Tour Lists -->
+                        <div class="container">
+                            <div class="d-flex row">
+                                <div class="col-md-6">
+                                    <div class="card my-2">
+                                        <img src="https://dummyimage.com/300" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Bali</h3>
+                                            <p class="card-text">Some quick example text to build on the
+                                                card title
+                                                and
+                                                make
+                                                up the bulk of the card's content.</p>
+                                            <!-- Rating Review -->
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="star-rating">
+                                                            <i class="bi bi-star" data-rating="1"></i>
+                                                            <i class="bi bi-star" data-rating="2"></i>
+                                                            <i class="bi bi-star" data-rating="3"></i>
+                                                            <i class="bi bi-star" data-rating="4"></i>
+                                                            <i class="bi bi-star" data-rating="5"></i>
+                                                            <input type="hidden" name="whatever1" class="rating-value"
+                                                                value="2.56">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <button class="btn btn-primary">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card my-2">
+                                        <img src="https://dummyimage.com/300" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Bali</h3>
+                                            <p class="card-text">Some quick example text to build on the
+                                                card title
+                                                and
+                                                make
+                                                up the bulk of the card's content.</p>
+                                            <!-- Rating Review -->
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="star-rating">
+                                                            <i class="bi bi-star" data-rating="1"></i>
+                                                            <i class="bi bi-star" data-rating="2"></i>
+                                                            <i class="bi bi-star" data-rating="3"></i>
+                                                            <i class="bi bi-star" data-rating="4"></i>
+                                                            <i class="bi bi-star" data-rating="5"></i>
+                                                            <input type="hidden" name="whatever1" class="rating-value"
+                                                                value="2.56">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <button class="btn btn-primary">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card my-2">
+                                        <img src="https://dummyimage.com/300" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Bali</h3>
+                                            <p class="card-text">Some quick example text to build on the
+                                                card title
+                                                and
+                                                make
+                                                up the bulk of the card's content.</p>
+                                            <!-- Rating Review -->
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="star-rating">
+                                                            <i class="bi bi-star" data-rating="1"></i>
+                                                            <i class="bi bi-star" data-rating="2"></i>
+                                                            <i class="bi bi-star" data-rating="3"></i>
+                                                            <i class="bi bi-star" data-rating="4"></i>
+                                                            <i class="bi bi-star" data-rating="5"></i>
+                                                            <input type="hidden" name="whatever1" class="rating-value"
+                                                                value="2.56">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <button class="btn btn-primary">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card my-2">
+                                        <img src="https://dummyimage.com/300" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Bali</h3>
+                                            <p class="card-text">Some quick example text to build on the
+                                                card title
+                                                and
+                                                make
+                                                up the bulk of the card's content.</p>
+                                            <!-- Rating Review -->
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="star-rating">
+                                                            <i class="bi bi-star" data-rating="1"></i>
+                                                            <i class="bi bi-star" data-rating="2"></i>
+                                                            <i class="bi bi-star" data-rating="3"></i>
+                                                            <i class="bi bi-star" data-rating="4"></i>
+                                                            <i class="bi bi-star" data-rating="5"></i>
+                                                            <input type="hidden" name="whatever1" class="rating-value"
+                                                                value="2.56">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <button class="btn btn-primary">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card my-2">
+                                        <img src="https://dummyimage.com/300" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Bali</h3>
+                                            <p class="card-text">Some quick example text to build on the
+                                                card title
+                                                and
+                                                make
+                                                up the bulk of the card's content.</p>
+                                            <!-- Rating Review -->
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="star-rating">
+                                                            <i class="bi bi-star" data-rating="1"></i>
+                                                            <i class="bi bi-star" data-rating="2"></i>
+                                                            <i class="bi bi-star" data-rating="3"></i>
+                                                            <i class="bi bi-star" data-rating="4"></i>
+                                                            <i class="bi bi-star" data-rating="5"></i>
+                                                            <input type="hidden" name="whatever1" class="rating-value"
+                                                                value="2.56">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <button class="btn btn-primary">Read More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-center">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Category Column -->
+                    <div class="col-md-4">
+
+                        <div class="container">
+
+                            <!-- List Categories -->
+                            <div class="container">
+                                <h3>Categories</h3>
+                            </div>
+
+                            <hr>
+
+                            <div class="container">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Tours <span class="float-end">92</span></li>
+                                    <li class="list-group-item">Attractions <span class="float-end">22</span></li>
+                                    <li class="list-group-item">Day Trips <span class="float-end">35</span></li>
+                                    <li class="list-group-item">Outdoor Activities <span class="float-end">41</span>
+                                    </li>
+                                    <li class="list-group-item">Concert &amp; Show <span class="float-end">11</span>
+                                    </li>
+                                    <li class="list-group-item">Indoor <span class="float-end">61</span></li>
+                                    <li class="list-group-item">Sight Seeing <span class="float-end">18</span></li>
+                                    <li class="list-group-item">Travels <span class="float-end">88</span></li>
+                                </ul>
+                            </div>
+
+                            <div class="spacer">
+
+                            </div>
+
+                            <div class="container">
+                                <h3>Location</h3>
+                            </div>
+
+                            <hr>
+
+                            <div class="container">
+                                <ul class="list-group">
+                                    <li class="list-group-item">Nusa Penida</li>
+                                    <li class="list-group-item">Uluwatu</li>
+                                    <li class="list-group-item">Nusa Dua</li>
+                                    <li class="list-group-item">Ubud</li>
+                                    <li class="list-group-item">Labuan Bajo</li>
+                                </ul>
+                            </div>
+
+
+                            <div class="spacer">
+
+                            </div>
+
+                            <!-- Slide Related Destination -->
+                            <div class="container text-center">
+
+                                <h3>Top Related Destination</h3>
+                                <hr>
+                                <!-- Swiper -->
+                                <div class="swiper related-top-destination">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="container">
+                                                <div class="card bg-dark text-white rounded-4">
+                                                    <img src="https://dummyimage.com/600x400/000/fff"
+                                                        class="card-img-fit rounded-4" alt="...">
+                                                    <div
+                                                        class="card-img-overlay d-flex flex-column justify-content-end text-end">
+                                                        <h5 class="card-title">Jakarta</h5>
+                                                        <p class="card-text">10 Tours</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="container">
+                                                <div class="card bg-dark text-white rounded-4">
+                                                    <img src="https://dummyimage.com/600x400/000/fff"
+                                                        class="card-img-fit rounded-4" alt="...">
+                                                    <div
+                                                        class="card-img-overlay d-flex flex-column justify-content-end text-end">
+                                                        <h5 class="card-title">Jakarta</h5>
+                                                        <p class="card-text">10 Tours</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="container">
+                                                <div class="card bg-dark text-white rounded-4">
+                                                    <img src="https://dummyimage.com/600x400/000/fff"
+                                                        class="card-img-fit rounded-4" alt="...">
+                                                    <div
+                                                        class="card-img-overlay d-flex flex-column justify-content-end text-end">
+                                                        <h5 class="card-title">Jakarta</h5>
+                                                        <p class="card-text">10 Tours</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="swiper-pagination-related-top-destination"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CTA  -->
+        <section id="cta">
+            <div class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4 img-fluid rounded-circle" src="https://dummyimage.com/100x100/000/fff" alt="" 
+                    height="57">
+                <h4 class="display-5 fw-bold">Love Where Your're Going</h4>
+                <h2 class="display-5 fw-bold">Explore Your Life, Travel Where You Want!</h2>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-center ">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="spacer">
+            <!-- Spacer -->
+        </div>
+
+        <div class="container-fluid px-5 border-top">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5">
+
+                <div class="col mb-4">
+                    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <img src="https://dummyimage.com/100x100/000000/fff" alt="">
+                    </a>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    <p>
+                        PO Box: +47-252-254-2542 Location: Collins Street, sydney, Australia Email: info@Travelin.com
+                        Website: www.Travelin.com
+                    </p>
+                </div>
+
+                <div class="col mb-4 ps-5">
+                    <h5>Menu</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-4 ps-5">
+                    <h5>Quick Link</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Jin our community of over 200,000 global readers who receives emails filled with news,
+                        promotions, and other good stuff.</p>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid border-top px-3">
+            <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-muted">&copy; 2024 Company, Inc</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-whatsapp"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+
+    <!-- Date Range Picker -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+    <!-- Select 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <!-- Gallery Masonry -->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Application Javascript -->
+    <script src="./assets/js/tours.js"></script>
+</body>
+
+</html>

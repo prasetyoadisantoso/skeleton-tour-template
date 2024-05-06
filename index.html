@@ -33,7 +33,27 @@
 <body>
 
     <!-- Start Header -->
-    <header id="header" class="py-2 bg-white">
+    <header id="header" class="bg-white ">
+        <!-- Top Bar -->
+        <div class="container-fluid bg-dark py-2">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Left content: Phone and Work Hours -->
+                <div class="text-white">
+                    <span class="me-3"><i class="bi bi-telephone me-1"></i>Phone: 123-456-7890</span>
+                    <span><i class="bi bi-clock me-1"></i>Work Hours: Mon-Fri, 9:00 AM - 5:00 PM</span>
+                </div>
+
+                <!-- Right content: Social Media Icons -->
+                <div class="text-white">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Bar -->
         <nav class="navbar navbar-expand-lg bg-white">
             <div class="container-fluid">
 
@@ -42,8 +62,10 @@
 
                     <!-- Company Logo -->
                     <div class="container px-0 py-0 mx-0" id="brand-logo">
-                        <img src="https://dummyimage.com/100x100/e0e0e0/ffffff" alt="" srcset="" class="d-lg-block d-none company-logo">
-                        <img src="https://dummyimage.com/300x100/e0e0e0/ffffff" alt="" srcset="" class="d-block d-lg-none company-logo-mobile">
+                        <img src="https://dummyimage.com/100x100/e0e0e0/ffffff" alt="" srcset=""
+                            class="d-lg-block d-none company-logo">
+                        <img src="https://dummyimage.com/300x100/e0e0e0/ffffff" alt="" srcset=""
+                            class="d-block d-lg-none company-logo-mobile">
                     </div>
 
                     <!-- Company Name -->
@@ -60,18 +82,31 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#"><i class="bi bi-search"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#">Tours</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><button type="button" class="btn btn-primary btn-lg">Book
+                                    Now</button></a>
                         </li>
                     </ul>
                 </div>
@@ -736,10 +771,144 @@
         </section>
         <!-- End Testimonial -->
 
+        <!-- Blog Card List -->
+        <section id="blog">
+
+            <div class="spacer">
+                <!-- Spacer -->
+            </div>
+
+            <div class="container-fluid text-center">
+                <h5>Our Blogs Offers</h5>
+                <h2>Recent Articles & Posts</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
+                </p>
+
+                <div class="spacer">
+                    <!-- Spacer -->
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-md-4 py-2 px-2">
+                            <div class="card">
+                                <img src="https://dummyimage.com/400x400/000000/fff" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post 1</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <button class="btn btn-primary">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 py-2 px-2">
+                            <div class="card">
+                                <img src="https://dummyimage.com/400x400/000000/fff" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post 2</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <button class="btn btn-primary">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 py-2 px-2">
+                            <div class="card">
+                                <img src="https://dummyimage.com/400x400/000000/fff" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Post 3</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <button class="btn btn-primary">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="spacer">
+                <!-- Spacer -->
+            </div>
+        </section>
+        <!-- End Blog Card List -->
+
     </main>
 
     <footer>
-        <!-- place footer here -->
+        <div class="spacer">
+            <!-- Spacer -->
+        </div>
+
+        <div class="container-fluid px-5 border-top">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-5">
+
+                <div class="col mb-4">
+                    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <img src="https://dummyimage.com/100x100/000000/fff" alt="">
+                    </a>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    <p>
+                        PO Box: +47-252-254-2542 Location: Collins Street, sydney, Australia Email: info@Travelin.com
+                        Website: www.Travelin.com
+                    </p>
+                </div>
+
+                <div class="col mb-4 ps-5">
+                    <h5>Menu</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-4 ps-5">
+                    <h5>Quick Link</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Jin our community of over 200,000 global readers who receives emails filled with news,
+                        promotions, and other good stuff.</p>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid border-top px-3">
+            <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                            <use xlink:href="#bootstrap" />
+                        </svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-muted">&copy; 2024 Company, Inc</span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-whatsapp"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
